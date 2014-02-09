@@ -1,0 +1,59 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{fullpage}
+
+\title{Analyse Fonctionnelle}
+\author{Romain CUNAULT \and P.A. GRIGNON \and Alexandre MAGNE}
+\date{}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+\section{Généralités}
+	\subsection{Cadre d'utilisation}
+Notre produit est une application destiné aux particuliers qui souhaitent investir en bourse. 
+	\subsection{Fonction globale d'usage}
+Notre produit doit donc être capable de permettre à tout utilisateur d'investir en bourse, et plus particulièrement sur le cours de l'or.
+
+\section{Les fonctions techniques}
+	\subsection{Le support de l'application}
+L'application doit être exécuter via un navigateur internet (IE, Safari, Firefox, Google Chrome). Il est donc nécessaire de créer un site Internet qui contiendra notre application.
+
+	\subsection{Observer le cours de l'or}
+		\subsubsection{L'affichage du cours de l'or}
+Pour réaliser le but principal de notre site (investir en bourse), nous devons pouvoir afficher le cours de l'or en temps réel. Cet affichage se fait sous forme de courbe. Différentes plages de visualisation seront mis à disposition : 1 jour, 1 semaine, 1 mois, 3 mois, 6 mois, 1 an, 3 ans. Pour cela, il est nécessaire de maitriser certains langages informatiques pour permettre l'affichage du cours de l'or.
+Également, il est nécessaire de récupérer des données sur le cours de l'or.
+		\subsubsection{La récupération du cours de l'or en temps réel}
+Pour récupérer le cours de l'or en temps réel, nous récupérerons ces donnés via \textit{Google Finance} ou bien encore \textit{Yahoo Query Language}\footnote{http://www.yqlblog.net/blog/2009/06/02/getting-stock-information-with-yql-and-open-data-tables/}.
+	
+	\subsection{Les outils proposés}
+		\subsubsection{Les tutoriels}
+Les tutoriels sont mis à disposition pour permettre aux débutants de comprendre le fonctionnement de la bourse et les différents outils mis à disposition.
+		\subsubsection{Les outils de visualisation}
+Différents outils sont mis à disposition pour faciliter l'investissement.
+
+	\subsection{Les différents types de portefeuilles}
+		\subsubsection{Le portefeuille virtuel}
+Le portefeuille virtuel est un outil permettant à l'utilisateur de jouer de l'argent virtuel. Cela lui permet de faire des simulations sur son investissement, et de ne pas perdre son propre argent. Une fois que l'utilisateur se sent prêt, il peut investir réellement.
+		\subsubsection{Le portefeuille réel}
+L'utilisateur peut jouer son argent s'il le désire. Dans ce cas là, une taxe sera prise pour tout ordre de bourse passé.
+
+	\subsection{Les différents types d'utilisateurs}
+		\subsubsection{Le visiteur}
+Le visiteur est le type d'utilisateur qui se retrouve sur notre site pour la première fois. Il ne peut que visualiser les courbes de l'or. 
+A de multiples reprises, il est sollicité pour s'inscrire au site afin d'accéder aux différentes options.
+		\subsubsection{Le membre}
+Le membre est un visiteur qui s'est inscrit au site. Cette inscription s'est faite via un formulaire d'inscription. Le membre possède les même options que le visiteur, mais aussi peut disposer de certains outils boursiers, posséder un portefeuille virtuel, investir de l'argent réel, parler avec d'autres membres, et parler avec un mentor.
+		\subsubsection{Le mentor}
+Le mentor est un membre qui est inscrit depuis un certain temps, et qui a investit un certain montant. Il possède les même options que le membre.
+		\subsubsection{L'administrateur}
+L'administrateur doit se préoccuper du bon fonctionnement du site.
+
+	
+
+	
+	
+\end{document}
