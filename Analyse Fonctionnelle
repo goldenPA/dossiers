@@ -1,0 +1,83 @@
+CUNAULT Romain
+GRIGNON Pierre-Antoine
+MAGNE Alexandre
+
+
+
+
+
+
+
+
+
+
+
+
+Analyse fonctionnelle
+
+
+
+
+
+
+
+
+
+
+
+
+1. Introduction
+1.1 But du document
+Ce document présente l’analyse fonctionnelle de notre site internet sur le trading de l’or, projet réalisé dans le cadre de notre année de Master 1 à l’ESME Sudria.
+ 1.2 Contexte
+Il existe de nombreux site de trading sur internet, notamment concernant l’or. Cependant, la grande majorité d’entre eux est destinée à un public averti et il est donc très compliqué de débuter quand on est novice.
+1.3 Objectif
+L’objectif de notre projet est de développer un site internet destiné à tous, y compris les débutants, permettant de miser sur la valeur du cours de l’or, à travers la mise en place d’une entre-aide entre utilisateurs, et d’articles et tutoriels disponibles sur notre site.
+1. Les acteurs
+Les premiers acteurs de notre projet seront bien entendu nous même, en tant que développeurs et administrateurs du site Internet, qui gèreront toute la maintenance du site ainsi que les différentes publications ou mises à jour apparaissant sur notre site.
+Ensuite, notre site sera accessible par tous sur Internet, les cibles potentielles correspondent donc à tous les utilisateurs d’Internet intéressés par le trading ou voulant débuter dans ce domaine. 
+Nos clients véritables se restreindront ensuite aux personnes s’enregistrant à notre communauté d’utilisateurs désirant plaçant leur argent sur le cours de l’or à travers notre site. Nous distinguerons deux catégories de clients inscrit :
+-	les user classiques, débutants ou confirmés, qui jouent leur argent classiquement sur notre site et qui peuvent bénéficier des conseils de personnes averties si ils le désirent.
+-	Les mentors, ou « users confirmés », seront les clients qui auront placé un montant minimum sur notre site ou bien ayant remporté une certaine somme sur le marché. Ces mentors seront les clés de voute de notre système d’ « entre-aide » inter utilisateurs car ils pourront si ils le désirent dialoguer avec des users novices afin de les aiguiller ou leur donner de précieux conseils. Bien entendu le grade de mentor sera basé sur le volontariat : un user devient mentor quand il présente les critères suffisant pour accéder à ce grade ET s’il le souhaite. 
+
+4. Cas d’utilisation
+4.1 Diagramme des cas d’utilisation
+Le diagramme ci-dessous décrit les principaux cas d’utilisation de l’application.
+ 
+
+
+
+4.2 Les cas d’utilisation
+4.2.1  Consulter le cours de l’or
+Le cours de l’or apparaitra sur la page d’accueil de notre site et sera visible par tout le monde (visiteurs et clients) sous forme de graphique dont les données auront été au préalable importées de site nous le permettant, tel Google Finance ou Yahoo Query Language. Le visiteur pourra changer la base de temps d’observation du cours, sur 1 journée, 1 semaine, 1 mois, 6 mois, 1 an et 3 ans.
+La courbe qui sera affichée sera celle de l’once d’or en dollars.
+
+4.2.2  Actualités et tutoriels
+
+Ce cas d’utilisation sera regroupé dans un onglet accessible de la page d’accueil apres connexion pour les membres, car ils ne seront accessibles qu’aux clients de notre site, user ou mentor.
+Seront présents un grand nombres d’articles tirés de multiples journaux ou sites spécialisés sur l’or et la Bourse.
+Quelques tutoriels déstinés aux débutants seront aussi mis à la disposition des clients, avec des fiches sur la facon de proceder pour parier en Bourse, du vocabulaire, … 
+
+
+4.2.3  Chat 1 vs n
+
+N’importe quel client pourra participer au chat 1 vs n présent sur la page d’accueil des membres. L’objectif de ce chat est de permettre aux utilisateurs connectés sur notre site d’échanger sur n’importe quel sujet, en s’adressant à tous.
+
+4.2.4  Chat 1 vs 1
+
+Ce chat se veut la clé de voute de notre système de communauté. Il sera accessibles aux users seuls, qui accèderont à ce chat à l’aide d’un onglet présent sur la page d’accueil, et qui l’emmenera sur une page lui présentant un certain nombre de mentors actifs et prêt à répondre à ses questions. Il pourra en selectionner 1 ou plusieurs pour commencer à dialoguer avec eux, et ainsi lui poser toutes les questions qu’il souhaite.
+4.2.5  Porte feuille client
+
+Chaque nouveau client devra tout d’abord remplir quelques informations sur lui, un pseudo et un mot de passe pour se connecter au site, ainsi qu’un numéro de carte bancaire pour les échanges d’argent. Il se verra alors remettre un porte feuille virtuel, qu’il pourra alimenter à souhait, et c’est l’argent présent sur ce porte feuille qui sera échangé contre de l’or afin de commencer à investir.
+Nous imposerons comme limite de gain ou perte, 100% de plus ou moins que de la valeur du porte feuille initial. Par exemple, si un client dépose 100€ sur son porte feuille, il ne pourra pas avoir un solde inférieur à 0€ ou supérieur à 200€, il devra rajouter de l’argent pour continuer. Cela a un avantage à la fois pour le joueur (il ne prendra pas trop de risque de perte) et pour nous même (le joueur ne peut pas jouer à découvert, et s’il gagne beaucoup il devra nous donner plus d’argent).
+
+4.2.7  Prévisions
+
+Ce cas d’utilisation sera réservé aux seuls administrateurs, et nous permettra de gérer au mieux l’argent des clients que nous investirons sur le cours de l’or.
+Nous utiliserons un modèle financer afin de matérialiser le cours probable de l’or à venir.
+
+4.2.7  Mises à jour
+
+Encore une fois, cette action sera réservée aux administrateurs, servira à ajouter ou enlever des articles, modifier la présentation du site internet
+
+

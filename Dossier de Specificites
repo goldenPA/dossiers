@@ -1,0 +1,128 @@
+CUNAULT Romain
+GRIGNON Pierre-Antoine
+MAGNE Alexandre
+
+
+
+
+
+
+
+
+Dossier des specificités
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sommaire :
+
+
+1.Introduction ................................................................................................................................................ 3
+.	1.1  Contexte .................................................................................................................................... 3 
+.	1.2  Existant ...................................................................................................................................... 3 
+.	1.3  Objectifs..................................................................................................................................... 3 
+2.Présentation .....................................................................................................................................................4
+.	2.1  Acteurs............................................................................................................................................ 4 
+.	2.2  Fonctionnalités .......................................................................................................................... 4 
+.	2.3  Axes d’amélioration...................................................................................................................4 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1 – Introduction
+
+1.1	– Contexte
+
+
+Le trading et la Bourse ont toujours été réservés à une certaine partie de la population, très avertie et spécialisée dans ces domaines. Cependant, bon nombre de personnes ne baignant pas forcément dans ce milieu souhaiteraient se lancer dans l’aventure mais y ont renoncé, découragés par le manque de site dédiés aux débutants, et par peur de perdre trop d’argent.
+
+1.2	– Existant
+
+Il existe une multitude de sites Internet dédiés à la finance avec l’actualisation en temps réel de courbes représentant le cours d’un grand nombre d’actions et indices boursiers, de matières premières, taux de change des monnaies, etc… avec en prime certaines options permettant d’acheter ou vendre des titres.
+
+1.3	– Objectif
+
+L’objectif de notre projet d’informatique de Master 1 est de développer un site Internet sur le domaine de la finance. Face au nombre impressionnant de valeurs et titres pouvant être échangé en Bourse, nous avons décidé dans un premier temps de consacrer notre site Internet au trading de l’or, valeur refuge par excellence.
+Notre site devra être accessible à tous, notamment aux personnes débutants dans le trading et voulant investir leur argent dans de l’or.
+
+
+2	– Présentation
+
+2.1	– Acteurs
+
+Notre projet est un site Web, il est donc par définition accessible à toute personne ayant un accès Internet. Un utilisateur qui s’inscrit dans notre base de donnée en créant un compte (gratuitement) devient dès lors un de nos clients. Il y aura deux types de clients :
+-	les users, simples utilisateurs s’étant inscrit dans notre base de donnée, et ayant mis de l’argent ou non dans son porte-feuille.
+-	les mentors, utilisateurs « confirmé » remplissant des conditions spéciales : il devra avoir mis une certaine somme dans son porte-feuille et/ou gagné une certaine somme sur notre site. Ce grade s’obtient en outre par le volontariat : un mentor le devient seulement s’il le désire.
+Cette répartition des clients en deux groupes distincts va nous permettre de développer notre réseau d’entre-aide entre les utilisateurs : en effet, un chat 1 vs 1 sera disponible, dans lequel un user pourra poser des questions ou demander de l’aide à un mentor disponible sur notre site.
+Enfin, en tant que créateurs du site, nous serons de fait administrateurs du site et nous seuls pourrons modifier les articles et la mise en ligne d’articles.
+
+
+2.2	– Fonctionnalités
+
+Le site permettra bien entendu de visualiser le cours de l’or avec choix de l’échelle de temps. C’est la seule fonctionnalité auquel les visiteurs extérieurs du site auront accès.
+Les clients de notre site auront accès à bien d’autres fonctionnalités que compose notre site, à commencer par tous les articles concernant l’or et la Bourse en général, ainsi que des tutoriels pour débuter dans le trading.
+Ils pourront aussi gérer l’argent présent sur leur porte-feuille client, miser ou retirer leur argent. 
+De plus, pour développer la communauté d’utilisateurs, les clients pourront dialoguer sur le chat 1 vs n présent sur la page d’accueil de notre site. Et pour des conseils plus personnalisés, les users pourront contacter un mentor pour plus de recommandations.
+ 
+2.3	– Axes d’amélioration
+
+Bien entendu dans le cadre de notre projet, l’argent ajouté par les utilisateurs sera fictif, un axe d’amélioration important sera de sécuriser au maximum notre site contre tout acte malveillant.
+Aussi, nous souhaiterions mettre en place un algorithme nous permettant, à nous utilisateurs, d’anticiper le cours de l’or afin d’améliorer notre rentabilité.
+
